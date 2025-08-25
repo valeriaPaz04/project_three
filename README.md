@@ -43,28 +43,32 @@ Este proyecto es una aplicación web desarrollada con React que presenta un sist
 ---
 
 ## 📁 Estructura del Proyecto
+```bash
 src/
+├── 🧩 assets/
 ├── 🧩 Components/
-│ ├── Header.js # Cabecera de la aplicación
-│ ├── Footer.js # Pie de página
-│ ├── Navbar.js # Barra de navegación
-│ ├── Layout.js # Layout principal
-│ └── Carousel.js # Componente de carrusel
+│ ├── Carrusel.jsx
+│ ├── Footer.jsx
+│ ├── Header.jsx
+│ ├── Layout.jsx
+│ └── Navbar.jsx
 ├── 📚 Pages/
-│ ├── Inicio.js
-│ ├── Props.js
-│ ├── Estados.js
-│ ├── Hooks.js
-│ ├── CicloVida.js
-│ ├── VirtualDom.js
-│ └── Redux.js
-├── 🎨 Css/
-│ ├── style.css # Estilos principales
-│ └── ejemplo.css # Estilos de ejemplo
-├── App.js # Componente principal
-├── App.css # Estilos de App
-├── index.js # Punto de entrada
-└── index.css # Estilos globales
+│ ├── 🎨 Css/
+│ │  ├── Inicio.css
+│ │  ├── Props.css
+│ │  ├── Estados.css
+│ │  └── CicloDeVida.css
+│ ├── Inicio.jsx
+│ ├── Props.jsx
+│ ├── Estados.jsx
+│ ├── Hooks.jsx
+│ ├── CicloDeVida.jsx
+│ ├── VirtualDOM.jsx
+│ └── Redux.jsx
+├── App.jsx
+├── App.css
+└── main.jsx
+```
 
 ---
 
@@ -78,25 +82,28 @@ src/
 
 ### 🔧 Pasos de Instalación
 
+##### 1. Clonar el repositorio
 ```bash
-# Clonar el repositorio
-git clone https://github.com/valeriaPaz04/project_three.git
-
-# Navegar al directorio del proyecto
+  git clone https://github.com/valeriaPaz04/project_three.git
+```
+##### 2. Navegar al directorio del proyecto
+```bash
 cd project-autonomo
-
-# Instalar dependencias
+```
+##### 3. Instalar dependencias
+```bash
 npm install
 # o
 yarn install
-
-# Iniciar el servidor de desarrollo
+```
+##### 4. Iniciar el servidor de desarrollo
+```bash
 npm start
 # o
 yarn start
-
-# Abre tu navegador
-Abre tu navegador en http://localhost:3000 para ver la aplicación funcionando.
+```
+##### 5. Abre tu navegador
+Abre tu navegador en http://localhost:5173/project_three/ para ver la aplicación funcionando.
 
 ## 📜 Scripts Disponibles
 
