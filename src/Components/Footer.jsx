@@ -1,11 +1,13 @@
 import {Link} from 'react-router-dom';
 
+import logo from './assets/logo.png';
+
 const Footer = () => {
     return(
         <footer>
             <div className='footer-left'>
                 <div className='logo'>
-                    <img src='/logo.png' width="35px"/>
+                    <img src={logo} width="35px"/>
                     <h2 style={{ marginLeft: '5px' }}>react</h2>
                 </div>
                 <p>Proyecto de Valeria © {new Date().getFullYear()}</p>
