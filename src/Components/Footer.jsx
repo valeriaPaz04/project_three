@@ -10,7 +10,7 @@ const Footer = () => {
                     <img src={logo} width="35px"/>
                     <h2 style={{ marginLeft: '5px' }}>react</h2>
                 </div>
-                <p>Proyecto de Valeria © {new Date().getFullYear()}</p>
+                <p>Proyecto de Valeria Paz Arana © {new Date().getFullYear()}</p>
             </div>
             <div className='footer-right'>
                 <ul>
