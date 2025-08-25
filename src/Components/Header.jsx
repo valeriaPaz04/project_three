@@ -4,7 +4,7 @@ const Header = () => {
     return(
         <header>
             <div style={{ marginLeft: '80px' }}>
-                <img src='../logo.png' width="35px"/>
+                <img src='/logo.png' width="35px"/>
                 <h2 style={{ marginLeft: '5px' }}>react</h2>
             </div>
             <div style={{ marginRight: '20px', gap: '50px'}}>
