@@ -1,0 +1,9 @@
+.imgSuelta{
+    border-radius: 12px;
+    padding: 1px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
